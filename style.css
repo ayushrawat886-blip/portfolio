@@ -735,4 +735,12 @@ footer {
     }
 }
 .hero-name{margin-top:14vh}
-@media(max-width:760px){.hero-name{margin-top:6vh}}
+@media(max-width:760px){
+    .hero-name{margin-top:6vh}
+}
+
+@media(max-width:480px){
+    .dock a{
+        padding:11px 7px;font-size:.66rem
+    }
+}
